@@ -1,0 +1,33 @@
+@media only screen and (max-width: 767px) {
+    html[lang^="ru"] .ex-g-floating-navigation .explore-lnb .explore-lnb__title h1 {
+        display: inline-flex;
+        height: 13.056vw;
+        align-items: center;
+    }
+
+    html[lang^="ru"] .ex-g-floating-navigation .explore-lnb .explore-lnb__title a span {
+        width: 52.5vw;
+    }
+
+    html[lang^="ru"] .ex-g-floating-navigation .explore-lnb .explore-lnb__cta.mobile-only {
+        top: -1.6vw;
+        padding: 2.22222222vw 4.44444444vw;
+        border-radius: 4.44444444vw;
+        font-size: 3.33333333vw;
+        line-height: 4.44444444vw;
+    }
+
+    html[lang^="ru"] .ex-g-floating-navigation .explore-lnb__link-container.mb {
+        top: 19vw;
+    }
+
+    html[lang^="ru"] .ex-g-floating-navigation .explore-lnb .explore-lnb__title {
+        min-height: 33.33vw;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    html[lang^="ru"] .ex-g-floating-navigation .explore-lnb .explore-lnb__title {
+        min-height: 120px;
+    }
+}
