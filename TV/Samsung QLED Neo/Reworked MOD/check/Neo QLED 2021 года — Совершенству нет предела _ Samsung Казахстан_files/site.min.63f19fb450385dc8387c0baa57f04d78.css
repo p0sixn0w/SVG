@@ -1,0 +1,57 @@
+.breadcrumb{background:#fff}
+.breadcrumb__inner{max-width:1440px;padding-left:24px;padding-right:24px;margin:0 auto;background:#fff;border-top:1px solid #ddd}
+.breadcrumb__path{overflow:hidden;font-size:0;white-space:nowrap;text-align:left}
+.breadcrumb__path li{display:inline-block;position:relative;padding-right:20px;margin-right:4px;font-size:14px;color:#000;text-indent:0;line-height:55px;vertical-align:top}
+.breadcrumb__path li *{vertical-align:top}
+.breadcrumb__path li .icon{display:inline-block;position:absolute;top:50%;right:0;-webkit-transform:translateY(-50%);transform:translateY(-50%);width:16px;height:16px;fill:#8f8f8f;cursor:default}
+.breadcrumb__path li:last-child .icon{display:none}
+.breadcrumb__path li .breadcrumb__text-desktop{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.breadcrumb__path li>a{display:inline-block;color:#000}
+.breadcrumb__path li>a:hover,.breadcrumb__path li>a:focus{color:#000;text-decoration:underline}
+.high-contrast .breadcrumb__path li>a{background:#000;color:#fff01f}
+.breadcrumb__path li>span{color:#757575}
+.breadcrumb__path li>span.breadcrumb__text-desktop{display:inline-block}
+.high-contrast .breadcrumb__path li>span{background:#000;color:#fff01f}
+.breadcrumb__path li>strong{color:#757575}
+.high-contrast .breadcrumb__path li>strong{background:#000;color:#fff01f}
+.breadcrumb__path li:last-child{padding-right:0;margin-right:0;overflow:hidden;color:#8f8f8f;max-width:100%}
+.breadcrumb__path li:last-child strong{overflow:hidden;text-overflow:ellipsis;font-weight:normal}
+.breadcrumb__path li:last-child strong.breadcrumb__text-mobile{display:none}
+.breadcrumb__path li:last-child .breadcrumb__text-desktop{display:block;white-space:nowrap}
+.breadcrumb__path a:hover+.icon,.breadcrumb__path a:focus+.icon{fill:#555}
+.breadcrumb--margin-top-narrow{margin-top:16px}
+.breadcrumb--margin-top-normal{margin-top:32px}
+.breadcrumb--margin-top-wide{margin-top:56px}
+.breadcrumb--margin-bottom-narrow{margin-bottom:16px}
+.breadcrumb--margin-bottom-normal{margin-bottom:32px}
+.breadcrumb--margin-bottom-wide{margin-bottom:56px}
+.breadcrumb__text-mobile{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;display:none}
+@media only screen and (min-width:768px) and (max-width:1440px){.breadcrumb__inner{padding:0vw 1.66666667vw}
+.breadcrumb__path li{margin-right:.27777778vw;padding-right:1.38888889vw;font-size:.97222222vw;line-height:3.81944444vw}
+.breadcrumb__path li .icon{width:1.11111111vw;height:1.11111111vw}
+.breadcrumb--margin-top-narrow{margin-top:1.11111111vw}
+.breadcrumb--margin-top-normal{margin-top:2.22222222vw}
+.breadcrumb--margin-top-wide{margin-top:3.88888889vw}
+.breadcrumb--margin-bottom-narrow{margin-bottom:1.11111111vw}
+.breadcrumb--margin-bottom-normal{margin-bottom:2.22222222vw}
+.breadcrumb--margin-bottom-wide{margin-bottom:3.88888889vw}
+}
+@media only screen and (max-width:767px){.breadcrumb__inner{padding:0vw 6.66666667vw;margin:0}
+.breadcrumb__path{margin-top:-1.38888889vw;padding:3.88888889vw 0vw 3.88888889vw 0vw;overflow:visible;white-space:normal}
+.breadcrumb__path li{max-width:100%;margin:1.38888889vw 1.11111111vw 0vw 0vw;padding-right:5.55555556vw;font-size:3.88888889vw;height:5.27777778vw;line-height:1.33}
+.breadcrumb__path li>a{max-width:100%}
+.breadcrumb__path li .icon{width:4.44444444vw;height:4.44444444vw}
+.breadcrumb__path li>span.breadcrumb__text-desktop{display:none}
+.breadcrumb__path li:last-child strong.breadcrumb__text-desktop{display:none}
+.breadcrumb__path li:last-child strong.breadcrumb__text-mobile{display:inline-block}
+.breadcrumb--margin-top-narrow{margin-top:4.44444444vw}
+.breadcrumb--margin-top-normal{margin-top:6.66666667vw}
+.breadcrumb--margin-top-wide{margin-top:8.88888889vw}
+.breadcrumb--margin-bottom-narrow{margin-bottom:4.44444444vw}
+.breadcrumb--margin-bottom-normal{margin-bottom:6.66666667vw}
+.breadcrumb--margin-bottom-wide{margin-bottom:8.88888889vw}
+.breadcrumb__text-desktop{display:none}
+.breadcrumb__text-mobile{display:inline-block;width:100%}
+.breadcrumb li:last-child .breadcrumb__text-desktop{display:none}
+.breadcrumb li:last-child .breadcrumb__text-mobile{display:inline-block;width:100%}
+}
