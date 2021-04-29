@@ -1,7 +1,0 @@
-<h1>This is a test.</h1>
-
-<p>If you are see the page below,the iFrame works properly!</p>
-
-<p>
-	<iframe src="https://plus.maximum.md/" style="position:fixed; top:0; left:0; bottom:0; right:0; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;"> </iframe>
-</p>
